@@ -1,0 +1,14 @@
+JAC TOPOGRAFÍA v0.6 — PAQUETE WEB INSTALABLE
+
+Este paquete contiene la herramienta HTML v0.6 y archivos para instalarla como aplicación web (PWA), con un ícono preparado a partir del logo JAC incluido en la gráfica original disponible.
+
+IMPORTANTE: Para que Chrome en Android permita instalarla como aplicación, los archivos deben publicarse en una dirección HTTPS. Abrir index.html directamente desde Descargas no basta. El service worker también requiere HTTPS (excepto localhost).
+
+PASOS GENERALES:
+1. Descomprimir el ZIP en un computador.
+2. Publicar el contenido de esta carpeta en un hosting estático HTTPS (por ejemplo, un servicio de publicación por arrastre de carpeta).
+3. Abrir la URL HTTPS resultante en Chrome del Xiaomi.
+4. En Chrome, menú ⋮ > Instalar aplicación o Añadir a pantalla principal.
+5. Abrir el ícono JAC Topo desde la pantalla principal.
+
+La publicación en hosting no está hecha por este archivo; requiere una acción en una cuenta/servicio de hosting.
